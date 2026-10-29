@@ -1,0 +1,8 @@
+name: Release Workflow
+on:
+  pull_request:
+jobs:
+  fake:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "forged Release Workflow from fork PR"
